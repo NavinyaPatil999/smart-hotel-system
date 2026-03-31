@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import axios from 'axios'
 import toast from 'react-hot-toast'
 
-const API = 'http://localhost:8000'
+const API = 'https://smart-hotel-system.onrender.com'
 
 function Rooms() {
   const [rooms, setRooms] = useState([])

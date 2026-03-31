@@ -30,7 +30,7 @@ export default function HotelChatbot() {
     setMessages(newMessages);
     setLoading(true);
     try {
-  const res = await fetch("http://localhost:8000/chat", {
+  const res = await fetch("https://smart-hotel-system.onrender.com/chat", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ messages: newMessages }),

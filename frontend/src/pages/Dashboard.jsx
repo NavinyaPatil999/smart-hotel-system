@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 
-const API = 'http://localhost:8000'
+const API = 'https://smart-hotel-system.onrender.com'
 
 function Dashboard() {
   const [rooms, setRooms] = useState([])
