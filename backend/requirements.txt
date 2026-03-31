@@ -1,6 +1,10 @@
 fastapi
 uvicorn
 sqlalchemy
+psycopg2-binary
 python-dotenv
+pydantic
+qrcode[pil]
+pillow
+python-multipart
 groq
-httpx
